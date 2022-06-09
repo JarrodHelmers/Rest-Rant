@@ -3,6 +3,8 @@
 REST-Rant is an app where users can review restaurants.
 
 Fill in the blanks! User stories are most often phrased as: "As a ____(user type)_____ I need ____(feature)____ so I can ____(action)____"
+
+ROUTES
 //
 GET
 
@@ -70,3 +72,21 @@ GET
 
 404 page (matches any route not defined above)
 
+
+DATABASE
+//
+_id	        Object ID
+name	    String
+city	    String
+state	    String
+cuisines	String
+pic	        String
+
+RANTS
+//
+_id	        Object ID
+place_id	ref(places) Object_Id
+rant	    Boolean
+rating	    Number
+comment	    String
+reviewer	String
