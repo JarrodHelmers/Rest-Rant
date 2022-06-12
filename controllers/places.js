@@ -14,9 +14,10 @@ router.get('/', (req, res) => {
         cuisines: 'Coffee, Bakery',
         pic: 'http://placekitten.com/250/250'
       }]
-      
-    res.render('places/index')
+
+    res.render('places/index', {places})
 })
 
 module.exports = router
+
 

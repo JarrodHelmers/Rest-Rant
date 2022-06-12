@@ -11,8 +11,7 @@ function Def (html) {
             </body>
         </html>
     )
-  }
-  
+}
 
-module.exports = Def
+module.exports = Def 
 
