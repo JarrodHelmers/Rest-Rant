@@ -1,12 +1,11 @@
 h1 {
-    text-align: center;
-    color: cornflowerblue;
-  }
+  text-align: center;
+  color: cornflowerblue;
+}
 
-img {
-    width: 50%;
-    height: auto;
-} 
+h2 {
+  color: lightblue;
+}
 
 nav {
   background-color: cornflowerblue;
@@ -29,7 +28,7 @@ nav a {
 }
 
 nav a:hover {
-  color: pink;
+  color: lightblue;
   text-decoration: none;
 }
 
@@ -38,8 +37,26 @@ body {
   text-align: center;
 }
 
+
+form {
+  display: inline;
+}
+
+.inactive {
+  color: gray;
+}
+
+.border {
+  border: 1px solid gray;
+}
+
+img {
+  height: 20em;
+} 
+
 main {
   margin-right: 20px;
   margin-left: 20px;
   background-color: white;
+  padding: 20px;
 }
